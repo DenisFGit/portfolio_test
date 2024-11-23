@@ -1,0 +1,32 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    left: 50px;
+    top: 226px;
+    align-items: center;
+    &__divider {
+        height: 70px;
+        width: 2px;
+        background-color: #000;
+    }
+    &__text {
+        height: 150px;
+        width: 24px;
+        span {
+            width: 150px;
+            height: 24px;
+            display: block;
+            transform: rotate(-90deg) translate(-32%, -270%);
+            font-weight: 700;
+            font-size: 16px;
+            color: #000;
+        }
+
+    }
+}
+
+// .socials * {
+//     transform: rotate(-90deg);
+// }
