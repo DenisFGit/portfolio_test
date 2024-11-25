@@ -1,0 +1,59 @@
+.grade {
+    padding-top: 120px;
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
+        gap: 30px 45px;
+    }
+    &__item {
+        display: grid;
+        grid-template: 21px 14px / 200px 35px;
+        justify-content: space-between;
+        align-content: space-between;
+        &-scale {
+            width: 100%;
+            background-color: #e8e4de;
+            border-radius: 4px;
+            grid-column: 1/3;
+            span {
+                display: block;
+                height: 100%;
+                width: 75%;
+                background-color: orange;
+                border-radius: 4px;
+            }
+            &-inner {
+                width: 75%;
+                height: 100%;
+                background-color: orange;
+                border-radius: 4px;
+            }
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 14px;
+            color: #000;
+        }
+    }
+    // &__item {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-content: space-between;
+    //     flex-wrap: wrap;
+    //     // &-title {
+    //     //     position: relative;
+    //     //     @include before_circle;
+    //     // }
+    //     &-scale {
+    //         width: 100%;
+    //         background-color: #e8e4de;
+    //         border-radius: 4px;
+    //         &-inner {
+    //             width: 75%;
+    //             height: 100%;
+    //             background-color: orange;
+    //             border-radius: 4px;
+    //         }
+    //     }
+    // }
+}
