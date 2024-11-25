@@ -11,7 +11,9 @@ body {
     width: 60px;
     height: 0px;
     margin-top: 25px;
-
+    &_center {
+        margin: 25px auto 0 auto;
+    }
 }
 
 @import 'base/mixins';
@@ -24,3 +26,5 @@ body {
 @import 'blocks/about';
 @import 'blocks/title';
 @import 'blocks/divider';
+@import 'blocks/resume';
+@import 'blocks/skills';
