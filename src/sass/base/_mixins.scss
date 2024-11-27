@@ -12,3 +12,12 @@
         left: 0;
     }
 }
+
+@mixin before_circle-center {
+    @include before_circle;
+    &::before {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

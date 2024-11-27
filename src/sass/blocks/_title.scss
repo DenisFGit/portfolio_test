@@ -11,6 +11,18 @@
     }
 }
 
+.section-title {
+    text-align: center;
+    span {
+        position: relative;
+        @include before_circle-center;
+    }
+}
+
+.section-subtitle {
+    text-align: center;
+}
+
 .subtitle {
     position: relative;
     font-weight: 700;

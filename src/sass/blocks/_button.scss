@@ -1,5 +1,5 @@
 .btn {
-    width: 135px;
+    min-width: 135px;
     height: 45px;
     font-weight: 700;
     font-size: 14px;
@@ -7,6 +7,7 @@
     background-color: transparent;
     text-align: center;
     border: none;
+    padding: 12px 25px;
     &_active {
         background-color: #B6C2CE;
         color: #000;
