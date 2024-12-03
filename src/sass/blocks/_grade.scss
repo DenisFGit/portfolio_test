@@ -3,6 +3,7 @@
     &__wrapper {
         display: grid;
         grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
+        grid-auto-rows: minmax(70px, auto);
         gap: 30px 45px;
     }
     &__item {

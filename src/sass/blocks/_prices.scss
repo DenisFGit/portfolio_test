@@ -13,6 +13,7 @@
         display: grid;
         grid-template-columns: 190px 121px;
         grid-template-rows: minmax(21px, auto) minmax(18px, auto);
+        grid-auto-rows: minmax(45px, auto);
         justify-content: space-between;
         align-content: space-between;
         &-title {
